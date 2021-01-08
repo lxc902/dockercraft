@@ -76,6 +76,14 @@ docker run -t -i -d -p 25565:25565 \
     --name dockercraft \
     gaetan/dockercraft <biome> <groundlevel> <sealevel> <finishers>
 ```
+(Or, one-line:)
+```
+docker run -t -i -d -p 25565:25565 -v /var/run/docker.sock:/var/run/docker.sock --name dockercraft lxc902/dockercraft
+```
+(Or, one-line for dev:)
+```
+docker build -t mycraft . && docker rm -f mycraft && docker run -t -i -d -p 25565:25565 -v /var/run/docker.sock:/var/run/docker.sock --name mycraft mycraft
+```
 
 Here are some examples:
 
