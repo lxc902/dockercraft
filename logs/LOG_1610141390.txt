@@ -1,0 +1,55 @@
+     [13:29:50] --- Started Log ---
+     [13:29:50] Cuberite Jenkins clang x64 Release (master) build id: #905
+     [13:29:50] from commit id: 8866a28cf835fd3f814d4413ab2b5883999e2065 built at: Wed Sep 27 21:24:41 UTC 2017
+     [13:29:50] Creating new server instance...
+     [13:29:50] Reading server config...
+Warn [13:29:50] Regenerating settings.ini, all settings will be reset
+     [13:29:50] Starting server...
+Info [13:29:50] Compatible clients: 1.8.x, 1.9.x, 1.10.x, 1.11.x, 1.12.x
+Info [13:29:50] Compatible protocol versions 47, 107, 108, 109, 110, 210, 315, 316, 335, 338, 340
+Warn [13:29:50] Regenerating webadmin.ini, all settings will be reset
+Warn [13:29:50] Can't load <webadmin_template> because of a load error in file webadmin/template.lua: 6 (cannot open webadmin/template.lua: No such file or directory)
+Warn [13:29:50] Could not load WebAdmin template "webadmin/template.lua". WebAdmin will not work properly!
+Warn [13:29:50] Could not load WebAdmin login page "webadmin/login_template.html", using fallback template.
+Warn [13:29:50] WebServer: The server will run in unsecured HTTP mode.
+Info [13:29:50] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Info [13:29:50] There are no ranks, migrating old-style INI files to new DB ranks...
+Info [13:29:50] (This might take a while)
+Info [13:29:50] Rank migration failed, creating default ranks...
+Info [13:29:50] Default ranks created.
+Warn [13:29:50] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [13:29:50] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [13:29:50] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [13:29:50] -- Loading Plugins --
+Err  [13:29:50] Error (2) opening directory "Plugins/"
+
+     [13:29:50] Cannot load plugin, folder "Core" not found.
+     [13:29:50] Cannot load plugin, folder "ChatLog" not found.
+     [13:29:50] -- No Plugins Loaded --
+Warn [13:29:50] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [13:29:50] Cannot read world settings from "world/world.ini", defaults will be used.
+Info [13:29:50] Chosen a new random seed for world: 941587478
+Warn [13:29:50] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [13:29:50] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [13:29:51] Preparing spawn (world): 16.25% (65/400; 62.98 chunks / sec)
+     [13:29:52] Preparing spawn (world): 51.00% (204/400; 137.08 chunks / sec)
+     [13:29:54] Preparing spawn (world): 81.75% (327/400; 120.94 chunks / sec)
+Info [13:29:54] Generated spawnpoint position at {64.50, 63.00, 0.50}
+Warn [13:29:54] Cannot read world settings from "world_nether/world.ini", defaults will be used.
+Info [13:29:54] Chosen a new random seed for world: 1137819044
+Warn [13:29:54] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [13:29:54] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+     [13:29:55] Preparing spawn (world_nether): 25.00% (100/400; 99.60 chunks / sec)
+     [13:29:56] Preparing spawn (world_nether): 67.25% (269/400; 168.49 chunks / sec)
+Info [13:29:57] Generated spawnpoint position at {-7.50, 57.00, 0.50}
+Warn [13:29:57] Cannot read world settings from "world_the_end/world.ini", defaults will be used.
+Info [13:29:57] Chosen a new random seed for world: 2105600945
+     [13:29:58] Preparing spawn (world_the_end): 70.50% (282/400; 282.00 chunks / sec)
+Warn [13:29:58] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 168.00, 0.00}
+Info [13:29:58] WebAdmin is running on port(s) 8080
+     [13:29:58] Startup complete, took 8377ms!
+     [13:29:58] Shutting down server...
+     [13:29:59] Unloading worlds...
+     [13:29:59] Cleaning up...
+     [13:30:00] Shutdown successful!
+     [13:30:00] --- Stopped Log ---

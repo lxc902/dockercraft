@@ -1,0 +1,9 @@
+     [21:18:11] --- Started Log ---
+     [21:18:11] Cuberite Jenkins clang x64 Release (master) build id: #905
+     [21:18:11] from commit id: 8866a28cf835fd3f814d4413ab2b5883999e2065 built at: Wed Sep 27 21:24:41 UTC 2017
+     [21:18:11] Creating new server instance...
+     [21:18:11] Reading server config...
+     [21:18:11] Starting server...
+Info [21:18:11] Compatible clients: 1.8.x, 1.9.x, 1.10.x, 1.11.x, 1.12.x
+Info [21:18:11] Compatible protocol versions 47, 107, 108, 109, 110, 210, 315, 316, 335, 338, 340
+Warn [21:18:11] WebServer: The server will run in unsecured HTTP mode.
