@@ -1,0 +1,66 @@
+[14:28:34] [main/INFO] [JMLogger] JourneyMap log initialized.
+[14:28:34] [main/INFO] [JourneymapClient] initialize ENTER
+[14:28:34] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.0rc1, built with Forge 14.23.0.2487
+Forge: 14.23.0.2512
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+Unlimited Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.5.0rc1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Circle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.5.0rc1, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Rectangle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.0rc1, mobDisplay=Small Dots, zoomLevel=4, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.0rc1, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.0rc1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.0rc1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=5.5.0rc1, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=6, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.0rc1, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=ForestMansion, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[14:28:34] [main/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[14:28:34] [main/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[14:28:34] [main/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[14:28:34] [main/TRACE] [LoadController] Sent event FMLInitializationEvent to mod journeymap
+[14:28:34] [main/TRACE] [LoadController] Sending event IMCEvent to mod journeymap
+[14:28:34] [main/TRACE] [LoadController] Sent event IMCEvent to mod journeymap
+[14:28:34] [main/TRACE] [LoadController] Sending event FMLPostInitializationEvent to mod journeymap
+[14:28:34] [main/DEBUG] [JourneymapClient] postInitialize ENTER
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[14:28:34] [main/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[14:28:34] [main/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[14:28:34] [main/TRACE] [ThemeLoader] Initializing themes ...
+[14:28:34] [main/INFO] [ThemeLoader] Preloaded theme textures: 71
+[14:28:34] [main/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed¡ì8 count ¡ìr1¡ì8 avg ¡ìr465.03¡ì8ms¡ìr
+[14:28:34] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://widget.mcf.li/mc-mods/minecraft/journeymap.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_271]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_271]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_271]
+	at java.net.URL.openStream(Unknown Source) ~[?:1.8.0_271]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:128) [VersionCheck$1.class:1.12.2-5.5.0rc1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_271]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_271]
+[14:46:37] [main/INFO] [TopoRenderer] Loading journeymap.topo.config
+[14:46:37] [main/INFO] [WaypointStore] Loaded 2 waypoints from F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[14:46:37] [main/INFO] [JourneymapClient] Mapping started in F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 651MB total, 148MB free 
+[14:46:37] [main/INFO] [ChatLog] JourneyMap: Press [J]
+[14:47:47] [main/INFO] [JourneymapClient] Mapping halted in F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[14:47:50] [main/INFO] [TopoRenderer] Loading journeymap.topo.config
+[14:47:51] [main/INFO] [WaypointStore] Loaded 2 waypoints from F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[14:47:51] [main/INFO] [JourneymapClient] Mapping started in F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 937MB total, 540MB free 
+[14:49:58] [main/INFO] [JourneymapClient] Mapping halted in F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[14:50:10] [main/INFO] [TopoRenderer] Loading journeymap.topo.config
+[14:50:10] [main/INFO] [WaypointStore] Loaded 2 waypoints from F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[14:50:10] [main/INFO] [JourneymapClient] Mapping started in F:\MyGames\Minecraft1.12.2_jdzh_neo_dev\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 1011MB total, 557MB free 

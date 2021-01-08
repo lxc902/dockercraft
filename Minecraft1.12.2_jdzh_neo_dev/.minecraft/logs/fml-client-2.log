@@ -1,0 +1,963 @@
+[18:50:42] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[18:50:42] [main/INFO] [FML/]: Forge Mod Loader version 14.23.0.2512 for Minecraft 1.12.2 loading
+[18:50:42] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
+[18:50:42] [main/DEBUG] [FML/]: Java classpath at launch is:
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.0.2512\forge-1.12.2-14.23.0.2512.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\jline\jline\2.13\jline-2.13.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\realms\1.10.17\realms-1.10.17.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\versions\1.12.2\1.12.2.jar
+[18:50:42] [main/DEBUG] [FML/]: Java library path at launch is:
+[18:50:42] [main/DEBUG] [FML/]:     E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\versions\1.12.2-forge1.12.2-14.23.0.2512\1.12.2-forge1.12.2-14.23.0.2512-natives
+[18:50:42] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[18:50:42] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[18:50:42] [main/DEBUG] [FML/]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[18:50:42] [main/DEBUG] [FML/]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:50:42] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[18:50:42] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[18:50:42] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[18:50:42] [main/DEBUG] [FML/]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[18:50:42] [main/DEBUG] [FML/]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:50:42] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[18:50:42] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[18:50:42] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft
+[18:50:42] [main/DEBUG] [FML/]: Discovering coremods
+[18:50:42] [main/DEBUG] [FML/]: Examining for coremod candidacy journeymap-1.12.2-5.5.0rc1.jar
+[18:50:42] [main/DEBUG] [FML/]: Not found coremod data in journeymap-1.12.2-5.5.0rc1.jar
+[18:50:42] [main/DEBUG] [FML/]: Examining for coremod candidacy JoypadMod-1.12-14.21.0.2322.jar
+[18:50:42] [main/DEBUG] [FML/]: Not found coremod data in JoypadMod-1.12-14.21.0.2322.jar
+[18:50:42] [main/DEBUG] [FML/]: Examining for coremod candidacy OptiFine_1.12.2_HD_U_C6.jar
+[18:50:42] [main/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_C6.jar
+[18:50:42] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:50:42] [main/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[18:50:42] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:50:42] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:50:42] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:50:42] [main/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: file:/E:/MinecraftNeoAndLu/Minecraft1.12.2_jdzh_neo/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: URI: file:/E:/MinecraftNeoAndLu/Minecraft1.12.2_jdzh_neo/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: /E:/MinecraftNeoAndLu/Minecraft1.12.2_jdzh_neo/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: OptiFine ClassTransformer
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: OptiFine URL: file:/E:/MinecraftNeoAndLu/Minecraft1.12.2_jdzh_neo/.minecraft/mods/OptiFine_1.12.2_HD_U_C6.jar
+[18:50:42] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:225]: OptiFine ZIP file: E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\mods\OptiFine_1.12.2_HD_U_C6.jar
+[18:50:42] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:50:42] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[18:50:42] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[18:50:42] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[18:50:42] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[18:50:42] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[18:50:42] [main/DEBUG] [FML/]: Injection complete
+[18:50:42] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[18:50:42] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[18:50:43] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[18:50:43] [main/DEBUG] [FML/]: Read 1022 binary patches
+[18:50:43] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36083 records
+[18:50:44] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:50:44] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[18:50:44] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[18:50:44] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:50:44] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[18:50:44] [main/DEBUG] [FML/]: Injection complete
+[18:50:44] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[18:50:44] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[18:50:44] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[18:50:44] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:50:44] [main/DEBUG] [FML/]: Loaded 208 rules from AccessTransformer config file forge_at.cfg
+[18:50:44] [main/DEBUG] [FML/]: Loaded 1 rules from AccessTransformer mod jar file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\mods\journeymap-1.12.2-5.5.0rc1.jar!META-INF/journeymap_at.cfg
+
+[18:50:44] [main/DEBUG] [FML/]: Validating minecraft
+[18:50:44] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[18:50:44] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:50:44] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:50:44] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[18:50:44] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:50:47] [main/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[18:50:47] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
+[18:50:47] [main/INFO] [Config/]: [OptiFine] *** Reflector Forge ***
+[18:50:47] [main/INFO] [Config/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18:50:48] [main/INFO] [Config/]: [OptiFine] *** Reflector Vanilla ***
+[18:50:49] [main/INFO] [Config/]: [OptiFine] 
+[18:50:49] [main/INFO] [Config/]: [OptiFine] OptiFine_1.12.2_HD_U_C6
+[18:50:49] [main/INFO] [Config/]: [OptiFine] Build: 20171003-125633
+[18:50:49] [main/INFO] [Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18:50:49] [main/INFO] [Config/]: [OptiFine] Java: 1.8.0_191, Oracle Corporation
+[18:50:49] [main/INFO] [Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[18:50:49] [main/INFO] [Config/]: [OptiFine] LWJGL: 2.9.4
+[18:50:49] [main/INFO] [Config/]: [OptiFine] OpenGL: GeForce GTX 1080/PCIe/SSE2, version 4.6.0 NVIDIA 442.74, NVIDIA Corporation
+[18:50:49] [main/INFO] [Config/]: [OptiFine] OpenGL Version: 4.6.0
+[18:50:49] [main/INFO] [Config/]: [OptiFine] Maximum texture size: 32768x32768
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] ShadersMod version: 2.4.12
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 442.74
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Renderer: GeForce GTX 1080/PCIe/SSE2
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] Load ShadersMod configuration.
+[18:50:49] [main/INFO] [shadersmod.common.SMCLog/]: [Shaders] No shaderpack loaded.
+[18:50:49] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.005s
+[18:50:49] [main/INFO] [FML/]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_C6, enabling compatibility features
+[18:50:49] [main/INFO] [FML/]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 31813704 bytes (30 MB) / 150994944 bytes (144 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 5 total; -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xms128M -Xmx4096M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 442.74' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
+[18:50:49] [main/INFO] [FML/]: MinecraftForge v14.23.0.2512 Initialized
+[18:50:49] [main/INFO] [FML/]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:50:49] [main/INFO] [FML/]: Replaced 1036 ore ingredients
+[18:50:49] [main/DEBUG] [FML/]: File E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\config\injectedDependencies.json not found. No dependencies injected
+[18:50:49] [main/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[18:50:49] [main/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[18:50:49] [main/DEBUG] [FML/]: Found a minecraft related file at E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.0.2512\forge-1.12.2-14.23.0.2512.jar, examining for mod candidates
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\jline\jline\2.13\jline-2.13.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[18:50:49] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[18:50:50] [main/DEBUG] [FML/]: Found a minecraft related file at E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar, examining for mod candidates
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\realms\1.10.17\realms-1.10.17.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[18:50:50] [main/DEBUG] [FML/]: Found a minecraft related file at E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar, examining for mod candidates
+[18:50:50] [main/DEBUG] [FML/]: Found a minecraft related file at E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\versions\1.12.2\1.12.2.jar, examining for mod candidates
+[18:50:50] [main/TRACE] [FML/]: Skipping known library file E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\mods\OptiFine_1.12.2_HD_U_C6.jar
+[18:50:50] [main/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[18:50:50] [main/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:50:50] [main/INFO] [FML/]: Searching E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\mods for mods
+[18:50:50] [main/DEBUG] [FML/]: Found a candidate zip or jar file journeymap-1.12.2-5.5.0rc1.jar
+[18:50:50] [main/DEBUG] [FML/]: Found a candidate zip or jar file JoypadMod-1.12-14.21.0.2322.jar
+[18:50:50] [main/TRACE] [FML/]: Skipping already parsed coremod or tweaker OptiFine_1.12.2_HD_U_C6.jar
+[18:50:50] [main/DEBUG] [FML/]: Examining file forge-1.12.2-14.23.0.2512.jar for potential mods
+[18:50:50] [main/DEBUG] [FML/]: The mod container forge-1.12.2-14.23.0.2512.jar appears to be missing an mcmod.info file
+[18:50:50] [main/DEBUG] [FML/]: Examining file patchy-1.1.jar for potential mods
+[18:50:50] [main/DEBUG] [FML/]: The mod container patchy-1.1.jar appears to be missing an mcmod.info file
+[18:50:50] [main/DEBUG] [FML/]: Examining file text2speech-1.10.3.jar for potential mods
+[18:50:50] [main/DEBUG] [FML/]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[18:50:50] [main/DEBUG] [FML/]: Examining file 1.12.2.jar for potential mods
+[18:50:50] [main/DEBUG] [FML/]: The mod container 1.12.2.jar appears to be missing an mcmod.info file
+[18:50:50] [main/DEBUG] [FML/]: Examining file journeymap-1.12.2-5.5.0rc1.jar for potential mods
+[18:50:50] [main/TRACE] [FML/]: Located mcmod.info file in file journeymap-1.12.2-5.5.0rc1.jar
+[18:50:51] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[18:50:51] [main/TRACE] [journeymap/]: Using mcmod dependency info : [] [Forge@[14.23.0.2487,)] []
+[18:50:51] [main/DEBUG] [FML/]: Examining file JoypadMod-1.12-14.21.0.2322.jar for potential mods
+[18:50:51] [main/TRACE] [FML/]: Located mcmod.info file in file JoypadMod-1.12-14.21.0.2322.jar
+[18:50:51] [main/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.shiny.joypadmod.JoypadMod) - loading
+[18:50:51] [main/TRACE] [joypadsplitscreenmod/]: Parsed dependency info : Requirements: [] After:[] Before:[]
+[18:50:51] [main/INFO] [FML/]: Forge Mod Loader has identified 6 mods to load
+[18:50:51] [main/DEBUG] [FML/]: Found API journeymap.client.api.display (owned by journeymap providing journeymap|client-api-display) embedded in journeymap
+[18:50:51] [main/DEBUG] [FML/]: Found API journeymap.client.api.model (owned by journeymap providing journeymap|client-api-model) embedded in journeymap
+[18:50:51] [main/DEBUG] [FML/]: Found API journeymap.client.api (owned by journeymap providing journeymap|client-api) embedded in journeymap
+[18:50:51] [main/DEBUG] [FML/]: Found API journeymap.client.api.event (owned by journeymap providing journeymap|client-api-event) embedded in journeymap
+[18:50:51] [main/DEBUG] [FML/]: Found API journeymap.client.api.util (owned by journeymap providing journeymap|client-api-util) embedded in journeymap
+[18:50:51] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-model: owner: journeymap, dependents: []
+[18:50:51] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-display: owner: journeymap, dependents: []
+[18:50:51] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api: owner: journeymap, dependents: []
+[18:50:51] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-event: owner: journeymap, dependents: []
+[18:50:51] [main/DEBUG] [FML/]: Creating API container dummy for API journeymap|client-api-util: owner: journeymap, dependents: []
+[18:50:51] [main/TRACE] [FML/]: Received a system property request ''
+[18:50:51] [main/TRACE] [FML/]: System property request managing the state of 0 mods
+[18:50:51] [main/DEBUG] [FML/]: After merging, found state information for 0 mods
+[18:50:51] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/DEBUG] [journeymap/]: Enabling mod journeymap
+[18:50:51] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/DEBUG] [joypadsplitscreenmod/]: Enabling mod joypadsplitscreenmod
+[18:50:51] [main/DEBUG] [Joypad / SplitScreen Mod/]: Mod Joypad / SplitScreen Mod is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/TRACE] [FML/]: Verifying mod requirements are satisfied
+[18:50:51] [main/TRACE] [FML/]: All mod requirements are satisfied
+[18:50:51] [main/TRACE] [FML/]: Sorting mods into an ordered list
+[18:50:51] [main/TRACE] [FML/]: Mod sorting completed successfully
+[18:50:51] [main/DEBUG] [FML/]: Mod sorting data
+[18:50:51] [main/DEBUG] [FML/]: 	journeymap(JourneyMap:1.12.2-5.5.0rc1): journeymap-1.12.2-5.5.0rc1.jar ()
+[18:50:51] [main/DEBUG] [FML/]: 	joypadsplitscreenmod(Joypad / SplitScreen Mod:1.12.0-0.22): JoypadMod-1.12-14.21.0.2322.jar ()
+[18:50:51] [main/DEBUG] [FML/]: 	journeymap|client-api-model(API: journeymap|client-api-model:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[18:50:51] [main/DEBUG] [FML/]: 	journeymap|client-api-display(API: journeymap|client-api-display:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[18:50:51] [main/DEBUG] [FML/]: 	journeymap|client-api(API: journeymap|client-api:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[18:50:51] [main/DEBUG] [FML/]: 	journeymap|client-api-event(API: journeymap|client-api-event:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[18:50:51] [main/DEBUG] [FML/]: 	journeymap|client-api-util(API: journeymap|client-api-util:1.4): journeymap-1.12.2-5.5.0rc1.jar ()
+[18:50:51] [main/DEBUG] [FML/]: Loading @Config anotation data
+[18:50:51] [main/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
+[18:50:51] [main/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.002s
+[18:50:51] [main/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[18:50:51] [main/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[18:50:51] [main/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[18:50:51] [main/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[18:50:51] [main/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[18:50:51] [main/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[18:50:51] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, journeymap, joypadsplitscreenmod] at CLIENT
+[18:50:51] [main/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, journeymap, joypadsplitscreenmod] at SERVER
+[18:50:51] [main/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.370s
+[18:50:51] [main/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
+[18:50:51] [main/DEBUG] [forge/forge]: Preloading CrashReport Classes
+[18:50:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable
+[18:50:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[18:50:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Column
+[18:50:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/common/util/TextTable$Row
+[18:50:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[18:50:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[18:50:51] [main/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$1
+[18:50:51] [main/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
+[18:50:51] [main/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
+[18:50:51] [main/TRACE] [FML/forge]: The mod forge accepts its own version (14.23.0.2512)
+[18:50:51] [main/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
+[18:50:51] [main/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.038s
+[18:50:51] [main/TRACE] [journeymap/journeymap]: Sending event FMLConstructionEvent to mod journeymap
+[18:50:51] [main/TRACE] [FML/journeymap]: Mod journeymap is using network checker : Invoking method checkModLists
+[18:50:51] [main/TRACE] [FML/journeymap]: Testing mod journeymap to verify it accepts its own version in a remote connection
+[18:50:51] [main/TRACE] [FML/journeymap]: The mod journeymap accepts its own version (1.12.2-5.5.0rc1)
+[18:50:51] [main/DEBUG] [FML/journeymap]: Attempting to inject @SidedProxy classes into journeymap
+[18:50:51] [main/DEBUG] [FML/journeymap]: Attempting to inject @EventBusSubscriber classes into the eventbus for journeymap
+[18:50:51] [main/DEBUG] [FML/journeymap]: Attempting to inject @Config classes into journeymap for type INSTANCE
+[18:50:51] [main/TRACE] [journeymap/journeymap]: Sent event FMLConstructionEvent to mod journeymap
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Construction - JourneyMap took 0.035s
+[18:50:51] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sending event FMLConstructionEvent to mod joypadsplitscreenmod
+[18:50:51] [main/TRACE] [FML/joypadsplitscreenmod]: Mod joypadsplitscreenmod is using network checker : Accepting version 1.12.0-0.22
+[18:50:51] [main/TRACE] [FML/joypadsplitscreenmod]: Testing mod joypadsplitscreenmod to verify it accepts its own version in a remote connection
+[18:50:51] [main/TRACE] [FML/joypadsplitscreenmod]: The mod joypadsplitscreenmod accepts its own version (1.12.0-0.22)
+[18:50:51] [main/DEBUG] [FML/joypadsplitscreenmod]: Attempting to inject @SidedProxy classes into joypadsplitscreenmod
+[18:50:51] [main/DEBUG] [FML/joypadsplitscreenmod]: Attempting to inject @EventBusSubscriber classes into the eventbus for joypadsplitscreenmod
+[18:50:51] [main/DEBUG] [FML/joypadsplitscreenmod]: Attempting to inject @Config classes into joypadsplitscreenmod for type INSTANCE
+[18:50:51] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sent event FMLConstructionEvent to mod joypadsplitscreenmod
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Construction - Joypad / SplitScreen Mod took 0.006s
+[18:50:51] [main/DEBUG] [FML/]: Bar Finished: Construction took 0.452s
+[18:50:51] [main/DEBUG] [FML/]: Mod signature data
+[18:50:51] [main/DEBUG] [FML/]:  	Valid Signatures:
+[18:50:51] [main/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.0.2512.jar
+[18:50:51] [main/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) forge	(Minecraft Forge	14.23.0.2512)	forge-1.12.2-14.23.0.2512.jar
+[18:50:51] [main/DEBUG] [FML/]:  	Missing Signatures:
+[18:50:51] [main/DEBUG] [FML/]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[18:50:51] [main/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[18:50:51] [main/DEBUG] [FML/]: 		journeymap	(JourneyMap	1.12.2-5.5.0rc1)	journeymap-1.12.2-5.5.0rc1.jar
+[18:50:51] [main/DEBUG] [FML/]: 		joypadsplitscreenmod	(Joypad / SplitScreen Mod	1.12.0-0.22)	JoypadMod-1.12-14.21.0.2322.jar
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.004s
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.002s
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:JourneyMap took 0.001s
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Joypad / SplitScreen Mod took 0.001s
+[18:50:51] [main/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.042s
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.043s
+[18:50:51] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.052s
+[18:50:51] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/DEBUG] [Joypad / SplitScreen Mod/]: Mod Joypad / SplitScreen Mod is missing a pack.mcmeta file, substituting a dummy one
+[18:50:51] [main/INFO] [FML/]: Processing ObjectHolder annotations
+[18:50:51] [main/INFO] [FML/]: Found 1168 ObjectHolder annotations
+[18:50:51] [main/INFO] [FML/]: Identifying ItemStackHolder annotations
+[18:50:51] [main/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[18:50:51] [main/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
+[18:50:51] [main/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.000s
+[18:50:51] [main/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[18:50:51] [main/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[18:50:51] [main/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[18:50:51] [main/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[18:50:51] [main/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
+[18:50:51] [main/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
+[18:50:51] [main/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.041s
+[18:50:51] [main/TRACE] [journeymap/journeymap]: Sending event FMLPreInitializationEvent to mod journeymap
+[18:50:51] [main/INFO] [journeymap/journeymap]: No plugins for JourneyMap API discovered.
+[18:50:51] [main/TRACE] [journeymap/journeymap]: Sent event FMLPreInitializationEvent to mod journeymap
+[18:50:51] [main/DEBUG] [FML/]: Bar Step: PreInitialization - JourneyMap took 0.004s
+[18:50:51] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sending event FMLPreInitializationEvent to mod joypadsplitscreenmod
+[18:50:51] [main/INFO] [FML/joypadsplitscreenmod]: preInit
+[18:50:51] [main/INFO] [FML/joypadsplitscreenmod]: Setting shared profile to false
+[18:50:51] [main/INFO] [FML/joypadsplitscreenmod]: Deleted category -Global- key SharedProfile
+[18:50:51] [main/INFO] [FML/joypadsplitscreenmod]: updateKey updated -Global-:SharedProfile with false
+[18:50:51] [main/INFO] [FML/joypadsplitscreenmod]: neo's JoyNo == -1 (). SharedProfile = false. GrabMouse = false.  invertYAxis = false. ConfigVersion 0.22. Game Sensitivity multiplier: 40. Menu Sensitivity multiplier: 10
+[18:50:51] [main/INFO] [FML/joypadsplitscreenmod]: Deleted category Joypad-neo key ConfigVersion
+[18:50:51] [main/INFO] [FML/joypadsplitscreenmod]: updateKey updated Joypad-neo:ConfigVersion with 0.22
+[18:50:52] [main/INFO] [FML/joypadsplitscreenmod]: XInput is available on system.  Using version: XINPUT_1_4
+[18:50:52] [main/INFO] [FML/joypadsplitscreenmod]: Using XInput library for Joypad Mod controls
+[18:50:52] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sent event FMLPreInitializationEvent to mod joypadsplitscreenmod
+[18:50:52] [main/DEBUG] [FML/]: Bar Step: PreInitialization - Joypad / SplitScreen Mod took 0.106s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.152s
+[18:50:52] [main/INFO] [FML/]: Applying holder lookups
+[18:50:52] [main/INFO] [FML/]: Holder lookups applied
+[18:50:52] [main/INFO] [FML/]: Applying holder lookups
+[18:50:52] [main/INFO] [FML/]: Holder lookups applied
+[18:50:52] [main/INFO] [FML/]: Applying holder lookups
+[18:50:52] [main/INFO] [FML/]: Holder lookups applied
+[18:50:52] [main/INFO] [FML/]: Applying holder lookups
+[18:50:52] [main/INFO] [FML/]: Holder lookups applied
+[18:50:52] [main/INFO] [FML/]: Injecting itemstacks
+[18:50:52] [main/INFO] [FML/]: Itemstack injection complete
+[18:50:52] [main/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[18:50:52] [main/INFO] [Config/]: [OptiFine] Resource packs: Default
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.001s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.438s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.006s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.006s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.011s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.008s
+[18:50:52] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0.001s
+[18:50:52] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0.003s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[18:50:52] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[18:50:53] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.980s
+[18:50:53] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.330s
+[18:50:54] [main/INFO] [Config/]: [OptiFine] Multitexture: false
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[18:50:54] [main/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[18:50:54] [main/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18:50:55] [main/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=0, y=0, height=16, width=16, u0=0.0, u1=0.0, v0=0.0, v1=0.0}
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.653s
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 3.946s
+[18:50:56] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 3.966s
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0.002s
+[18:50:56] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0.123s
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - SearchTreeManager took 0.058s
+[18:50:56] [main/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.248s
+[18:50:56] [main/DEBUG] [FML/]: Bar Finished: Rendering Setup took 4.341s
+[18:50:56] [main/INFO] [FML/]: Applying holder lookups
+[18:50:56] [main/INFO] [FML/]: Holder lookups applied
+[18:50:56] [main/TRACE] [minecraft/minecraft]: Sending event FMLInitializationEvent to mod minecraft
+[18:50:56] [main/TRACE] [minecraft/minecraft]: Sent event FMLInitializationEvent to mod minecraft
+[18:50:56] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft took 0.000s
+[18:50:56] [main/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[18:50:56] [main/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[18:50:56] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[18:50:56] [main/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[18:50:56] [main/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[18:50:56] [main/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[18:50:56] [main/TRACE] [forge/forge]: Sending event FMLInitializationEvent to mod forge
+[18:50:56] [main/TRACE] [forge/forge]: Sent event FMLInitializationEvent to mod forge
+[18:50:56] [main/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[18:50:56] [main/TRACE] [journeymap/journeymap]: Sending event FMLInitializationEvent to mod journeymap
+[18:50:57] [main/ERROR] [journeymap/journeymap]: Default theme not found in E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\journeymap\icon\theme\flat\OceanMonument.theme2.json: OceanMonument (SUPPRESSED)
+[18:50:57] [main/INFO] [journeymap/journeymap]: JourneyMap log initialized.
+[18:50:57] [main/INFO] [journeymap/journeymap]: initialize ENTER
+[18:50:57] [main/INFO] [journeymap/journeymap]: [ClientAPI] built with JourneyMap API 1.4
+[18:50:57] [main/INFO] [journeymap/journeymap]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[18:50:57] [main/INFO] [journeymap/journeymap]: initialize EXIT, elapsed count 0 avg ?ms
+[18:50:57] [main/TRACE] [journeymap/journeymap]: Sent event FMLInitializationEvent to mod journeymap
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: Initialization - JourneyMap took 0.463s
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sending event FMLInitializationEvent to mod joypadsplitscreenmod
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: init
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Replaced mousehelper in Minecraft with JoypadMouseHelper
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sent event FMLInitializationEvent to mod joypadsplitscreenmod
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: Initialization - Joypad / SplitScreen Mod took 0.001s
+[18:50:57] [main/DEBUG] [FML/]: Bar Finished: Initialization took 0.464s
+[18:50:57] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minecraft
+[18:50:57] [main/TRACE] [minecraft/minecraft]: Sending event IMCEvent to mod minecraft
+[18:50:57] [main/TRACE] [minecraft/minecraft]: Sent event IMCEvent to mod minecraft
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft took 0.003s
+[18:50:57] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[18:50:57] [main/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[18:50:57] [main/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[18:50:57] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[18:50:57] [main/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[18:50:57] [main/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[18:50:57] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod forge
+[18:50:57] [main/TRACE] [forge/forge]: Sending event IMCEvent to mod forge
+[18:50:57] [main/TRACE] [forge/forge]: Sent event IMCEvent to mod forge
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[18:50:57] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod journeymap
+[18:50:57] [main/TRACE] [journeymap/journeymap]: Sending event IMCEvent to mod journeymap
+[18:50:57] [main/TRACE] [journeymap/journeymap]: Sent event IMCEvent to mod journeymap
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - JourneyMap took 0.000s
+[18:50:57] [main/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod joypadsplitscreenmod
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sending event IMCEvent to mod joypadsplitscreenmod
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sent event IMCEvent to mod joypadsplitscreenmod
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Joypad / SplitScreen Mod took 0.000s
+[18:50:57] [main/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.005s
+[18:50:57] [main/INFO] [FML/]: Injecting itemstacks
+[18:50:57] [main/INFO] [FML/]: Itemstack injection complete
+[18:50:57] [main/TRACE] [minecraft/minecraft]: Sending event FMLPostInitializationEvent to mod minecraft
+[18:50:57] [main/TRACE] [minecraft/minecraft]: Sent event FMLPostInitializationEvent to mod minecraft
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft took 0.000s
+[18:50:57] [main/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[18:50:57] [main/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[18:50:57] [main/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[18:50:57] [main/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[18:50:57] [main/TRACE] [forge/forge]: Sending event FMLPostInitializationEvent to mod forge
+[18:50:57] [main/TRACE] [forge/forge]: Sent event FMLPostInitializationEvent to mod forge
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.009s
+[18:50:57] [main/TRACE] [journeymap/journeymap]: Sending event FMLPostInitializationEvent to mod journeymap
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: postInitialize ENTER
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.KeyEventHandler
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.ChatEventHandler
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.StateTickHandler
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.WorldEventHandler
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: Handler registered: journeymap.client.world.ChunkMonitor
+[18:50:57] [main/INFO] [journeymap/journeymap]: Added entity icons from journeymap:icon/entity. Success: false
+[18:50:57] [main/TRACE] [journeymap/journeymap]: Initializing themes ...
+[18:50:57] [main/INFO] [journeymap/journeymap]: Preloaded theme textures: 71
+[18:50:57] [main/DEBUG] [journeymap/journeymap]: postInitialize EXIT, elapsed¡ì8 count ¡ìr1¡ì8 avg ¡ìr482.08¡ì8ms¡ìr
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: PostInitialization - JourneyMap took 0.483s
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sending event FMLPostInitializationEvent to mod joypadsplitscreenmod
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: postInit
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Minecraft Joypad (Controller) Mod v1.12.0 by Ljubomir Simin & Andrew Hickey
+---
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Initializing Controllers
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Found 4 controller(s) in total.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Found controller XInput Device (0)
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  15 buttons.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  6 axes.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Controller #0 ( XInput Device) meets the input requirements
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: ---
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Found controller XInput Device (1)
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  15 buttons.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  6 axes.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Controller #1 ( XInput Device) meets the input requirements
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: ---
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Found controller XInput Device (2)
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  15 buttons.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  6 axes.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Controller #2 ( XInput Device) meets the input requirements
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: ---
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Found controller XInput Device (3)
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  15 buttons.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: It has  6 axes.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Controller #3 ( XInput Device) meets the input requirements
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: ---
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Found 1 valid controllers!
+[18:50:57] [main/WARN] [FML/joypadsplitscreenmod]: No joypad set up for this session. Must enter controller menu to enable.
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Creating VirtualKeyboard
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Creating VirtualMouse
+[18:50:57] [main/INFO] [FML/joypadsplitscreenmod]: Creating McGuiHelper
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sent event FMLPostInitializationEvent to mod joypadsplitscreenmod
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: PostInitialization - Joypad / SplitScreen Mod took 0.015s
+[18:50:57] [main/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.508s
+[18:50:57] [main/TRACE] [minecraft/minecraft]: Sending event FMLLoadCompleteEvent to mod minecraft
+[18:50:57] [main/TRACE] [minecraft/minecraft]: Sent event FMLLoadCompleteEvent to mod minecraft
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft took 0.000s
+[18:50:57] [main/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[18:50:57] [main/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[18:50:57] [main/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[18:50:57] [main/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[18:50:57] [main/TRACE] [forge/forge]: Sending event FMLLoadCompleteEvent to mod forge
+[18:50:57] [main/DEBUG] [FML/forge]: Forge RecipeSorter Baking:
+[18:50:57] [main/DEBUG] [FML/forge]:   16: RecipeEntry("Before", UNKNOWN, )
+[18:50:57] [main/DEBUG] [FML/forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[18:50:57] [main/DEBUG] [FML/forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[18:50:57] [main/DEBUG] [FML/forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[18:50:57] [main/DEBUG] [FML/forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[18:50:57] [main/DEBUG] [FML/forge]:   1: RecipeEntry("After", UNKNOWN, )
+[18:50:57] [main/DEBUG] [FML/forge]: Sorting recipes
+[18:50:57] [main/TRACE] [forge/forge]: Sent event FMLLoadCompleteEvent to mod forge
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.007s
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: LoadComplete - JourneyMap took 0.000s
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sending event FMLLoadCompleteEvent to mod joypadsplitscreenmod
+[18:50:57] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sent event FMLLoadCompleteEvent to mod joypadsplitscreenmod
+[18:50:57] [main/DEBUG] [FML/]: Bar Step: LoadComplete - Joypad / SplitScreen Mod took 0.000s
+[18:50:57] [main/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.008s
+[18:50:57] [main/DEBUG] [FML/]: Freezing registries
+[18:50:58] [main/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[18:50:58] [main/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[18:50:58] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[18:50:58] [main/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[18:50:58] [main/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[18:50:58] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[18:50:58] [main/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[18:50:58] [main/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[18:50:58] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[18:50:58] [main/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[18:50:58] [main/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[18:50:58] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.074s
+[18:50:58] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.000s
+[18:50:58] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sending event FMLModIdMappingEvent to mod joypadsplitscreenmod
+[18:50:58] [main/TRACE] [joypadsplitscreenmod/joypadsplitscreenmod]: Sent event FMLModIdMappingEvent to mod joypadsplitscreenmod
+[18:50:58] [main/DEBUG] [FML/]: Bar Step: ModIdMapping - Joypad / SplitScreen Mod took 0.001s
+[18:50:58] [main/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.076s
+[18:50:58] [main/DEBUG] [FML/]: All registries frozen
+[18:50:58] [main/INFO] [FML/]: Forge Mod Loader has successfully loaded 6 mods
+[18:50:58] [main/DEBUG] [FML/]: Bar Finished: Loading took 8.253s
+[18:50:58] [main/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[18:50:58] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureUtils$1 took 0.163s
+[18:51:06] [main/DEBUG] [FML/]: Overriding dimension: using 0
+[18:51:08] [main/INFO] [journeymap/]: Loading journeymap.topo.config
+[18:51:08] [main/INFO] [journeymap/]: Loaded 1 waypoints from E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\journeymap\data\sp\~\waypoints
+[18:51:08] [main/INFO] [journeymap/]: Mapping started in E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\journeymap\data\sp\~\DIM0. Memory: 1193MB total, 653MB free 
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.inventory. MenuOverride: null. menuHintOverrideHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.jump. MenuOverride: null. menuHintOverrideHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.attack. MenuOverride: null. menuHintOverrideHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.use. MenuOverride: null. menuHintOverrideHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.closeInventory. MenuOverride: null. menuHintOverrideHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.shiftClick. MenuOverride: menuHint.quickmove. menuHintOverrideHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.guiLeftClick. MenuOverride: menuHint.takeall. menuHintOverrideHolding: menuHint.placeall
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:08] [main/INFO] [FML/]: HintString Constructor called with binding: joy.interact. MenuOverride: menuHint.takehalf. menuHintOverrideHolding: menuHint.placeone
+[18:51:08] [main/INFO] [FML/]: HintString: null, HintStringHolding: null
+[18:51:10] [main/INFO] [journeymap/]: JourneyMap: °´ÏÂ[J]¼ü
+[18:52:49] [main/DEBUG] [FML/]: Replacing control screen
+[18:52:49] [main/INFO] [FML/]: width:395 height:255 yStart:88 bottomEnd:235xStart: 0
+[18:52:49] [main/INFO] [FML/]: Setting default joy binding map
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 0, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 3, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 4, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 8, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 5, threshhold: -0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 5 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 4, threshhold: 0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 4 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 2, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 0, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 2, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 6, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 7, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 9, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 5, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 1, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 2, threshhold: 0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 2 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 2, threshhold: -0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 2 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 3, threshhold: -0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 3 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 3, threshhold: 0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 3 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 0, threshhold: 0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 0 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 0, threshhold: -0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 0 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 1, threshhold: 0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 1 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 1, threshhold: -0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 1 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 0, threshhold: 0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 0 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 0, threshhold: -0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 0 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 1, threshhold: 0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 1 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: AXIS, controllerNumber: 0, buttonNumber: 1, threshhold: -0.7, deadzone: 0.2)
+[18:52:49] [main/INFO] [FML/]: Setting deadzone on controller 0 axis 1 value 0.2
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 3, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 7, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: 6, threshhold: 1.0, deadzone: 0.0)
+[18:52:49] [main/INFO] [FML/]: setToConfigFileString called with following values: user.ESCAPE,ESCAPE,{1},BUTTON,-1,1.0,0.0,GAME_BINDING,REPEAT_IF_HELD,RENDER_TICK,CATEGORY_MISC
+[18:52:49] [main/INFO] [FML/]: ControllerInputEvent constructor params:( type: BUTTON, controllerNumber: 0, buttonNumber: -1, threshhold: 1.0, deadzone: 0.0)
+[18:52:50] [main/INFO] [FML/]: JoypadConfigMenu OnGuiClosed
+[18:55:59] [main/DEBUG] [FML/]: Replacing control screen
+[18:55:59] [main/INFO] [FML/]: width:395 height:255 yStart:88 bottomEnd:235xStart: 0
+[18:55:59] [main/INFO] [FML/]: Skipping setting up the joybinding map as it is already set up for this joypad
+[18:56:00] [main/INFO] [FML/]: Action performed on buttonID 520
+[18:56:00] [main/INFO] [FML/]: JoypadConfigMenu OnGuiClosed
+[18:57:22] [main/INFO] [journeymap/]: neo died at BlockPos{x=30, y=62, z=600}. Deathpoints enabled: true. Deathpoint created: true
+[18:58:23] [main/DEBUG] [FML/]: Replacing control screen
+[18:58:23] [main/INFO] [FML/]: width:395 height:255 yStart:88 bottomEnd:235xStart: 0
+[18:58:23] [main/INFO] [FML/]: Skipping setting up the joybinding map as it is already set up for this joypad
+[18:58:25] [main/INFO] [FML/]: Action performed on buttonID 520
+[18:58:25] [main/INFO] [FML/]: JoypadConfigMenu OnGuiClosed
+[19:04:22] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[19:04:22] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[19:04:22] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[19:04:22] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:JourneyMap took 0.001s
+[19:04:22] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Joypad / SplitScreen Mod took 0.001s
+[19:04:22] [main/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[19:04:22] [main/INFO] [Config/]: [OptiFine] Resource packs: Default
+[19:04:30] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.709s
+[19:04:30] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.312s
+[19:04:30] [main/INFO] [Config/]: [OptiFine] Multitexture: false
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[19:04:30] [main/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[19:04:30] [main/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:04:31] [main/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=800, y=432, height=16, width=16, u0=0.7812598, u1=0.7968652, v0=0.84376955, v1=0.87498045}
+[19:04:32] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.355s
+[19:04:32] [main/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[19:04:32] [main/DEBUG] [FML/]: Bar Finished: Reloading took 10.092s
+[19:04:32] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 10.092s
+[19:04:32] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 10.097s
+[19:04:32] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[19:04:32] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[19:04:32] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[19:04:32] [main/DEBUG] [Joypad / SplitScreen Mod/]: Mod Joypad / SplitScreen Mod is missing a pack.mcmeta file, substituting a dummy one
+[19:05:04] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[19:05:04] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[19:05:04] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[19:05:04] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:JourneyMap took 0.001s
+[19:05:04] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Joypad / SplitScreen Mod took 0.001s
+[19:05:04] [main/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[19:05:04] [main/INFO] [Config/]: [OptiFine] Resource packs: Default
+[19:05:06] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.593s
+[19:05:06] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.301s
+[19:05:06] [main/INFO] [Config/]: [OptiFine] Multitexture: false
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[19:05:06] [main/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[19:05:06] [main/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:05:08] [main/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=800, y=432, height=16, width=16, u0=0.7812598, u1=0.7968652, v0=0.84376955, v1=0.87498045}
+[19:05:09] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.367s
+[19:05:09] [main/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[19:05:09] [main/DEBUG] [FML/]: Bar Finished: Reloading took 5.230s
+[19:05:09] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 5.230s
+[19:05:09] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 5.235s
+[19:05:09] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[19:05:09] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[19:05:09] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[19:05:09] [main/DEBUG] [Joypad / SplitScreen Mod/]: Mod Joypad / SplitScreen Mod is missing a pack.mcmeta file, substituting a dummy one
+[19:12:20] [main/INFO] [journeymap/]: neo died at BlockPos{x=32, y=64, z=751}. Deathpoints enabled: true. Deathpoint created: true
+[19:17:42] [main/INFO] [journeymap/]: TileDrawStep.updateRegionTexture hit max count, 1000000
+[19:18:29] [main/INFO] [journeymap/]: TileDrawStep.draw(low) hit max count, 1000000
+[19:38:29] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[19:38:29] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.002s
+[19:38:29] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[19:38:29] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:JourneyMap took 0.001s
+[19:38:29] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Joypad / SplitScreen Mod took 0.001s
+[19:38:29] [main/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[19:38:29] [main/INFO] [Config/]: [OptiFine] Resource packs: Default
+[19:38:31] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.578s
+[19:38:31] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.299s
+[19:38:31] [main/INFO] [Config/]: [OptiFine] Multitexture: false
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[19:38:31] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[19:38:32] [main/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:38:32] [main/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=800, y=432, height=16, width=16, u0=0.7812598, u1=0.7968652, v0=0.84376955, v1=0.87498045}
+[19:38:34] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.986s
+[19:38:34] [main/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[19:38:34] [main/DEBUG] [FML/]: Bar Finished: Reloading took 4.786s
+[19:38:34] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 4.786s
+[19:38:34] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 4.791s
+[19:38:34] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[19:38:34] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[19:38:34] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[19:38:34] [main/DEBUG] [Joypad / SplitScreen Mod/]: Mod Joypad / SplitScreen Mod is missing a pack.mcmeta file, substituting a dummy one
+[19:38:34] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[19:38:34] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[19:38:34] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[19:38:34] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:JourneyMap took 0.001s
+[19:38:34] [main/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Joypad / SplitScreen Mod took 0.001s
+[19:38:34] [main/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[19:38:34] [main/INFO] [Config/]: [OptiFine] Resource packs: Default
+[19:38:37] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.616s
+[19:38:37] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.317s
+[19:38:37] [main/INFO] [Config/]: [OptiFine] Multitexture: false
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[19:38:37] [main/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[19:38:37] [main/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:38:38] [main/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=800, y=432, height=16, width=16, u0=0.7812598, u1=0.7968652, v0=0.84376955, v1=0.87498045}
+[19:38:39] [main/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.271s
+[19:38:39] [main/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[19:38:39] [main/DEBUG] [FML/]: Bar Finished: Reloading took 4.645s
+[19:38:39] [main/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 4.646s
+[19:38:39] [main/DEBUG] [FML/]: Bar Finished: Loading Resources took 4.651s
+[19:38:39] [main/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[19:38:39] [main/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[19:38:39] [main/DEBUG] [JourneyMap/]: Mod JourneyMap is missing a pack.mcmeta file, substituting a dummy one
+[19:38:39] [main/DEBUG] [Joypad / SplitScreen Mod/]: Mod Joypad / SplitScreen Mod is missing a pack.mcmeta file, substituting a dummy one
+[20:23:31] [main/INFO] [journeymap/]: neo died at BlockPos{x=78, y=27, z=737}. Deathpoints enabled: true. Deathpoint created: true
+[20:41:44] [main/INFO] [journeymap/]: neo died at BlockPos{x=71, y=27, z=733}. Deathpoints enabled: true. Deathpoint created: true
+[20:42:25] [main/INFO] [journeymap/]: neo died at BlockPos{x=65, y=32, z=736}. Deathpoints enabled: true. Deathpoint created: true
+[20:42:52] [main/INFO] [journeymap/]: neo died at BlockPos{x=92, y=28, z=733}. Deathpoints enabled: true. Deathpoint created: true
+[20:43:26] [main/INFO] [journeymap/]: neo died at BlockPos{x=95, y=29, z=733}. Deathpoints enabled: true. Deathpoint created: true
+[22:10:46] [main/INFO] [journeymap/]: MiniMap1.Circle hit max count, 1000000
+[00:01:34] [main/DEBUG] [FML/]: Replacing control screen
+[00:01:34] [main/INFO] [FML/]: width:395 height:255 yStart:88 bottomEnd:235xStart: 0
+[00:01:34] [main/INFO] [FML/]: Skipping setting up the joybinding map as it is already set up for this joypad
+[00:01:34] [main/INFO] [FML/]: Action performed on buttonID 520
+[00:01:34] [main/INFO] [FML/]: JoypadConfigMenu OnGuiClosed
+[00:01:40] [main/DEBUG] [FML/]: Replacing control screen
+[00:01:40] [main/INFO] [FML/]: width:395 height:255 yStart:88 bottomEnd:235xStart: 0
+[00:01:40] [main/INFO] [FML/]: Skipping setting up the joybinding map as it is already set up for this joypad
+[00:02:09] [main/INFO] [FML/]: JoypadConfigMenu OnGuiClosed
+[00:27:53] [main/INFO] [journeymap/]: neo died at BlockPos{x=41, y=62, z=719}. Deathpoints enabled: true. Deathpoint created: true
+[01:28:41] [main/INFO] [journeymap/]: Mapping halted in E:\MinecraftNeoAndLu\Minecraft1.12.2_jdzh_neo\.minecraft\journeymap\data\sp\~\DIM0

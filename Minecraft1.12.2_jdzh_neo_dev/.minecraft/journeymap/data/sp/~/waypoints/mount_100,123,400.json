@@ -1,0 +1,20 @@
+{
+  "id": "mount_100,123,400",
+  "name": "mount",
+  "icon": "waypoint-normal.png",
+  "x": 100,
+  "y": 123,
+  "z": 400,
+  "r": 251,
+  "g": 153,
+  "b": 2,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1,
+    0,
+    1
+  ],
+  "persistent": true
+}

@@ -1,0 +1,6 @@
+用7zip打开jar然后把alex和steve.png放入assets—minecraft—textures—entity
+
+steve = self, alex = other.
+So
+For Neo: steve=superman, alex=cute.
+For Luu: reversed.

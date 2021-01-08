@@ -1,0 +1,18 @@
+[23:27:21] [main/INFO]: Setting user: neoo
+[23:27:24] [main/INFO]: LWJGL Version: 2.9.4
+[23:27:28] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Joypad / SplitScreen Mod
+[23:27:46] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:27:46] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[23:27:46] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:27:46] [Thread-6/INFO]: OpenAL initialized.
+[23:27:47] [Sound Library Loader/INFO]: Sound engine started
+[23:27:49] [main/INFO]: Created: 1024x512 textures-atlas
+[23:27:52] [main/INFO]: Narrator library for x64 successfully loaded
+[23:27:53] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:28:11] [main/INFO]: Connecting to localhost, 25565
+[23:28:13] [main/INFO]: [CHAT] neoo joined the game
+[23:28:14] [main/INFO]: Loaded 7 advancements
+[23:28:14] [main/INFO]: [CHAT] §eJourneyMap:§f 按下[§bJ§f]键
+[23:28:34] [main/INFO]: [CHAT] neoo淹死了
+[23:29:08] [main/INFO]: [CHAT] neoo被Zombie杀死了
+[23:29:08] [main/INFO]: Loaded 16 advancements

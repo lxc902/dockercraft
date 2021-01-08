@@ -1,0 +1,144 @@
+[14:28:20] [main/INFO]: Setting user: nnn
+[14:28:24] [main/INFO]: LWJGL Version: 2.9.4
+[14:28:28] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Joypad / SplitScreen Mod
+[14:28:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:28:29] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[14:28:29] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:28:29] [Thread-6/INFO]: OpenAL initialized.
+[14:28:29] [Sound Library Loader/INFO]: Sound engine started
+[14:28:32] [main/INFO]: Created: 1024x512 textures-atlas
+[14:28:34] [main/INFO]: Narrator library for x64 successfully loaded
+[14:28:36] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[14:28:39] [main/INFO]: Connecting to localhost, 25565
+[14:29:33] [main/INFO]: Connecting to localhost, 25565
+[14:46:34] [main/INFO]: Connecting to localhost, 25565
+[14:46:35] [main/INFO]: [CHAT] ¡ì9Welcome to Dockercraft!
+[14:46:35] [main/INFO]: [CHAT] ¡ì9https://github.com/docker/dockercraft
+[14:46:35] [main/INFO]: [CHAT] ¡ìcWarning: Use on your local machine only
+[14:46:35] [main/INFO]: [CHAT] ¡ìcDockercraft is not safe for use on production servers
+[14:46:35] [main/INFO]: [CHAT] ¡ì9Type /docker to use docker CLI commands!
+[14:46:35] [main/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1086) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:397) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147270_a(NetHandlerPlayClient.java:1651) ~[brz.class:?]
+	at net.minecraft.network.play.server.SPacketPlayerAbilities.func_148833_a(SourceFile:72) ~[jn.class:?]
+	at net.minecraft.network.play.server.SPacketPlayerAbilities.func_148833_a(SourceFile:9) ~[jn.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 9 more
+[14:46:36] [main/INFO]: [CHAT] A new ¡ìeOptiFine¡ìf version is available: ¡ìeHD Ultra D3¡ìf
+[14:46:37] [main/INFO]: [CHAT] ¡ìeJourneyMap:¡ìf Press [¡ìbJ¡ìf]
+[14:47:38] [main/INFO]: [CHAT] docker rm 00820b53
+[14:47:38] [main/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[14:47:49] [main/INFO]: Connecting to localhost, 25565
+[14:47:50] [main/INFO]: [CHAT] ¡ì9Welcome to Dockercraft!
+[14:47:50] [main/INFO]: [CHAT] ¡ì9https://github.com/docker/dockercraft
+[14:47:50] [main/INFO]: [CHAT] ¡ìcWarning: Use on your local machine only
+[14:47:50] [main/INFO]: [CHAT] ¡ìcDockercraft is not safe for use on production servers
+[14:47:50] [main/INFO]: [CHAT] ¡ì9Type /docker to use docker CLI commands!
+[14:47:50] [main/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1086) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:397) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147270_a(NetHandlerPlayClient.java:1651) ~[brz.class:?]
+	at net.minecraft.network.play.server.SPacketPlayerAbilities.func_148833_a(SourceFile:72) ~[jn.class:?]
+	at net.minecraft.network.play.server.SPacketPlayerAbilities.func_148833_a(SourceFile:9) ~[jn.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 9 more
+[14:50:04] [main/INFO]: Connecting to localhost, 25565
+[14:50:08] [main/INFO]: Connecting to localhost, 25565
+[14:50:09] [main/INFO]: [CHAT] ¡ì9Welcome to Dockercraft!
+[14:50:09] [main/INFO]: [CHAT] ¡ì9https://github.com/docker/dockercraft
+[14:50:09] [main/INFO]: [CHAT] ¡ìcWarning: Use on your local machine only
+[14:50:09] [main/INFO]: [CHAT] ¡ìcDockercraft is not safe for use on production servers
+[14:50:09] [main/INFO]: [CHAT] ¡ì9Type /docker to use docker CLI commands!
+[14:50:09] [main/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.get(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1086) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:397) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147270_a(NetHandlerPlayClient.java:1651) ~[brz.class:?]
+	at net.minecraft.network.play.server.SPacketPlayerAbilities.func_148833_a(SourceFile:72) ~[jn.class:?]
+	at net.minecraft.network.play.server.SPacketPlayerAbilities.func_148833_a(SourceFile:9) ~[jn.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 9 more
+[14:50:31] [main/ERROR]: Received invalid update packet for null tile entity at BlockPos{x=-8, y=66, z=4} with data: {x:-8,Text4:"{
+   \"text\" : \"\"
+}
+",y:66,Text3:"{
+   \"text\" : \"---->\"
+}
+",z:4,Text2:"{
+   \"text\" : \"START/STOP\"
+}
+",id:"Sign",Text1:"{
+   \"text\" : \"\"
+}
+"}
+[14:50:31] [main/ERROR]: Received invalid update packet for null tile entity at BlockPos{x=-7, y=66, z=4} with data: {x:-7,Text4:"{
+   \"text\" : \"\"
+}
+",y:66,Text3:"{
+   \"text\" : \"---->\"
+}
+",z:4,Text2:"{
+   \"text\" : \"REMOVE\"
+}
+",id:"Sign",Text1:"{
+   \"text\" : \"\"
+}
+"}
+[14:50:31] [main/ERROR]: Received invalid update packet for null tile entity at BlockPos{x=-6, y=65, z=1} with data: {x:-6,Text4:"{
+   \"text\" : \"latest\"
+}
+",y:65,Text3:"{
+   \"text\" : \"lxc902/dockercraft\"
+}
+",z:1,Text2:"{
+   \"text\" : \"/optimistic_raman\"
+}
+",id:"Sign",Text1:"{
+   \"text\" : \"6abfb3b0\"
+}
+"}

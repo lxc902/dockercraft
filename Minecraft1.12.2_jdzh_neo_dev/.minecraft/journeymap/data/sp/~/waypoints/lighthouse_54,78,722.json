@@ -1,0 +1,18 @@
+{
+  "id": "lighthouse_54,78,722",
+  "name": "lighthouse",
+  "icon": "waypoint-normal.png",
+  "x": 54,
+  "y": 78,
+  "z": 722,
+  "r": 199,
+  "g": 150,
+  "b": 132,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
